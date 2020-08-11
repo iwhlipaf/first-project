@@ -1,0 +1,374 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  background-color: #f2f2f2;
+  position:relative;
+}
+
+.logo__place_header {
+  width: 188px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  width: 730px;
+  line-height:96px;
+  font-size: 102px;
+  font-weight: 550;
+  display: flex;
+  padding-left: 64px;
+  align-self: center;
+}
+
+.header__subtitle {
+  width: 388px;
+  line-height:25px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+}
+
+.header__link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+.header__main_illustration {
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 4;
+}
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  background: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  z-index: 3;
+}
+
+.description {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height:1.2em;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration-color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+}
+
+.two-columns__main-text_paragraph {
+  line-height:34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+  }
+
+  .paragraph_padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+.two-columns__main-text_span {
+  line-height:34px;
+  font-size: 24px;
+  font-weight: 550;
+}
+
+.digits {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digits__title {
+  width: 60%;
+  line-height: 1.15em;;
+  font-size: 60px;
+  font-weight: 550;
+  text-align: center;  
+}
+
+.digits__subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.digits__table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.digits__table_cell {
+  width: 250px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  }
+
+.digits__table_heading {
+  width: 250px;
+  line-height: 1.15em;;
+  font-size: 24px;
+  font-weight: 550;  
+}
+
+.digits__table_text {
+  width: 250px;
+  line-height: 1.2em;;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.feinman {
+  height: 790px;
+  position: relative;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feinman__title {
+  width: 648px;
+  margin: 0px;
+  padding-top: 100px;
+  line-height: 1.15em;;
+  font-size: 120px;
+  font-weight: 550;
+  text-align: center;
+  z-index: 1;
+}
+
+.feinman__subtitle {
+  padding-top: 70px;
+  margin: 0px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  z-index: 1;
+}
+
+.feinman__link {
+  position: absolute;
+  padding-top: 50px;
+  margin: 0px;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.feinman__illustration {
+  width: 867px;
+  height: 637px;
+  margin: 0px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.kaufman {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: white; 
+}
+
+.kaufman__title {
+  width: 60%;
+  margin: 0;
+  line-height: 1.15em;;
+  font-size: 60px;
+  font-weight: 550;
+  text-align: center;  
+}
+
+.kaufman__subtitle {
+  width: 60%;
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.kaufman__table {
+  width: 1100px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.kaufman__table_cell {
+  width: 200px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kaufman__table_heading {
+  width: 200px;
+  line-height: 1.15em;;
+  font-size: 24px;
+  font-weight: 550;
+  z-index: 2;  
+}
+
+.kaufman__table_text {
+  width: 200px;
+  line-height: 1.2em;;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 2;
+}
+
+.kaufman__triangl {
+  width: 0px; 
+  height: 0px;
+  border-bottom: 710px solid #2f80ed;
+  border-left: 355px solid transparent;
+  border-right: 355px solid transparent;
+  transform: rotate(-12deg); 
+  position: absolute;
+  bottom: 70px;
+  right: -200px;
+  z-index: 1;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer__content {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_copyright {
+  flex-basis: 711px;
+  min-height: 350px;
+  position: relative;
+}
+
+.footer__author_copyright {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.info__heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 550;
+  margin: 0;
+}
+
+.info__links {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-bottom: 16px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.sociale__heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 550;
+  margin: 0;
+}
+
+.social__links {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-bottom: 16px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.list {
+  list-style: none;
+} 
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.socail__icon {
+  width: 16px;
+  height: 16px;
+}
